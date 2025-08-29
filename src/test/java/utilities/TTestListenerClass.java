@@ -27,6 +27,7 @@ public class TTestListenerClass implements ITestListener {
 
 	public void onTestFailure(ITestResult result) {
 		test.get().log(Status.FAIL, "Test Failed"+result.getThrowable());
+		System.out.println("Test Failed");
 	}
 	
 	public void onFinish(ITestContext context) {
