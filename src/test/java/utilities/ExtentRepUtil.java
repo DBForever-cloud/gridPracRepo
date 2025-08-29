@@ -14,7 +14,7 @@ public class ExtentRepUtil {
 	public static ExtentReports getReport() {
 		
 		if(report==null) {
-			String path=System.getProperty("user.dir")+"\\ExtentReport\\report.html";
+			String path=System.getProperty("user.dir")+"\\target\\ExtentReport\\report.html";
 			ExtentSparkReporter spark= new ExtentSparkReporter(path);
 			report=new ExtentReports();
 			report.attachReporter(spark);
@@ -27,7 +27,7 @@ public class ExtentRepUtil {
 	}
 
 	public static void openReport() throws IOException {
-		String path=System.getProperty("user.dir")+"\\ExtentReport\\report.html";
+		String path=System.getProperty("user.dir")+"\\target\\ExtentReport\\report.html";
 		File file= new File(path);
 		if(file.exists()==true) {
 			Desktop.getDesktop().browse(file.toURI());
