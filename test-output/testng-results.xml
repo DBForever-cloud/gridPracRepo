@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-29T11:51:01 IST" name="Suite" finished-at="2025-08-29T11:51:04 IST" duration-ms="2940">
+    <groups>
+    </groups>
+    <test started-at="2025-08-29T11:51:01 IST" name="Test" finished-at="2025-08-29T11:51:04 IST" duration-ms="2940">
+      <class name="SeleniumGridPrac.gridPracClass">
+        <test-method signature="gridTest(java.lang.String)[pri:0, instance:SeleniumGridPrac.gridPracClass@2b5f4d54]" started-at="2025-08-29T11:51:01 IST" name="gridTest" finished-at="2025-08-29T11:51:04 IST" duration-ms="2884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gridTest -->
+      </class> <!-- SeleniumGridPrac.gridPracClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
